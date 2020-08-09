@@ -2,16 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
 header {
     padding: 20px 35px;
-    background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
     background-image: url("../images/header.jpg");
     background-size: cover;
     background-attachment: fixed;
@@ -21,7 +18,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: var(--primary-color);
+    color: white;
     margin: 0;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -48,4 +45,35 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.hero {
+    background-image: url(../images/abstract2.jpg);
+    padding: 100px 35px;
+    
+}
+
+.hero-intro {
+    margin: 0;
+    padding: 10px 35px;
+    color: white;
+}
+
+.section-title {
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    font-size: 48px;
+    color: #7C49AA;
+    border-bottom: 3px solid;
+}
+
+.information {
+    background: #EEE4F7;
+}
+
+section {
+    padding: 10px 5%;
 }
