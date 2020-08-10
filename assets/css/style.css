@@ -50,7 +50,7 @@ header nav ul li a {
 
 .hero {
     background-image: url(../images/abstract2.jpg);
-    padding: 100px 35px;
+    padding: 40px 35px;
     
 }
 
@@ -58,6 +58,15 @@ header nav ul li a {
     margin: 0;
     padding: 10px 35px;
     color: white;
+    padding: 0;
+}
+
+.hero-intro img {
+    width: 180px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .section-title {
@@ -75,5 +84,65 @@ header nav ul li a {
 }
 
 section {
-    padding: 10px 5%;
+    padding: 40px 5%;
+}
+
+.paragraph1 {
+    margin-bottom: 18px;
+}
+
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+.contact-info ul li a {
+    border-bottom: 1px solid;
+}
+
+/* CSS Grid */
+.service-grid-container {
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.service-grid-item {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px;
+    flex-grow: 0;
+}
+
+.run-buddy {
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 8;
+    padding: 0px;
+}
+
+.run-buddy img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.horiseon {
+    grid-column: 5 / span 4;
+    grid-row: 1 / span 8;
+}
+
+.horiseon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    padding: 0;
 }
