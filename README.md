@@ -12,3 +12,9 @@ In Challenge 2, the task was to create a portfolio from scratch, and include:
 - Resizing the page gives a responsive layout.
 
 ## Screenshots
+
+![](assets/images/PortfolioScreenshot.jpg)
+![](assets/images/PortfolioScreenshot2.jpg)
+
+## URL
+https://thomasnguyen546.github.io/Portfolio
