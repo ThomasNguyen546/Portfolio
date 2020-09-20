@@ -51,7 +51,6 @@ header nav ul li a {
 .hero {
     background-image: url(../images/abstract2.jpg);
     padding: 40px 35px;
-    
 }
 
 .hero-intro {
@@ -166,9 +165,10 @@ section {
     header h1 {
         width: 100%;
         text-align: center;
+    }
 
     header nav ul li a {
-        font-size: 35px
+        font-size: 35px;
     }
 }
 
